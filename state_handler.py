@@ -2,7 +2,8 @@ from database import User
 from states import *
 
 states = {'main_menu_state': main_menu_state,
-          'set_main_account_state': set_main_account_state,
+          'set_main_api_key_state': set_main_api_key_state,
+          'set_main_api_secret_state': set_main_api_secret_state,
           # 'add_referal_state': add_referal_state,
           # 'delete_referal_state': delete_referal_state,
           }

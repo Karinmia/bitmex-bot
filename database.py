@@ -19,5 +19,6 @@ class User(Document):
 
 class BitmexAccount(Document):
     api_key = StringField(required=True)
-    name = StringField(required=True)
+    api_secret = StringField()
+    name = StringField()
     is_main = BooleanField(default=False)
